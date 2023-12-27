@@ -1,5 +1,5 @@
 {% set name = "timple" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/timple-{{ version }}.tar.gz
-  sha256: 77a789a9b52582abd7fc46b482f7c63b607f611b28e6395330ab1e7016a42b29
+  sha256: bbc120300f0103a3a93e54a0d00491c4b70872fe69b11204701a4889c6a05f0f
 
 build:
   noarch: python
